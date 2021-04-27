@@ -20,7 +20,7 @@ include device/xiaomi/msm8998-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/chiron
 
 # Kernel
-TARGET_KERNEL_CONFIG := chiron_defconfig
+TARGET_KERNEL_CONFIG := chiron_user_defconfig
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := chiron
@@ -32,7 +32,7 @@ AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 TARGET_RECOVERY_UI_MARGIN_STATUSBAR := 50
 
 # Display
-TARGET_SCREEN_DENSITY := 400
+TARGET_SCREEN_DENSITY := 440
 
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
