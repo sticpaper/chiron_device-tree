@@ -23,4 +23,7 @@
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">50.0px</dimen>
+
+    <!-- Global display rounded corners. -->
+    <dimen name="rounded_corner_radius">4dp</dimen>
 </resources>
